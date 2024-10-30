@@ -1,0 +1,66 @@
+# Creating a list, dictionary, and set
+my_list = [10, 20, 30, 40]
+my_dict = {'apple': 1, 'banana': 2, 'cherry': 3}
+my_set = {5, 10, 15, 20}
+
+# Display the initial list, dictionary, and set
+print("Initial List:", my_list)
+print("Initial Dictionary:", my_dict)
+print("Initial Set:", my_set)
+
+# ---- List Operations ----
+# Adding an element
+my_list.append(50)
+print("\nList after adding 50:", my_list)
+
+# Removing an element
+my_list.remove(20)
+print("List after removing 20:", my_list)
+
+# Modifying an element
+my_list[1] = 25
+print("List after modifying the second element to 25:", my_list)
+
+# Sorting the list
+my_list.sort()
+print("List after sorting:", my_list)
+
+# ---- Dictionary Operations ----
+# Adding an element
+my_dict['date'] = 4
+print("\nDictionary after adding {'date': 4}:", my_dict)
+
+# Removing an element
+my_dict.pop('banana')
+print("Dictionary after removing 'banana':", my_dict)
+
+# Modifying an element
+my_dict['apple'] = 10
+print("Dictionary after modifying 'apple' to 10:", my_dict)
+
+# Accessing keys and values
+print("Dictionary Keys:", my_dict.keys())
+print("Dictionary Values:", my_dict.values())
+
+# ---- Set Operations ----
+# Adding an element
+my_set.add(25)
+print("\nSet after adding 25:", my_set)
+
+# Removing an element
+my_set.discard(10)
+print("Set after removing 10:", my_set)
+
+# Union and Intersection with another set
+another_set = {15, 30, 35}
+print("Union of sets:", my_set.union(another_set))
+print("Intersection of sets:", my_set.intersection(another_set))
+
+# Checking membership
+print("Is 20 in the set?", 20 in my_set)
+print("Is 30 in the set?", 30 in my_set)
+
+# Final output
+print("\nFinal List:", my_list)
+print("Final Dictionary:", my_dict)
+print("Final Set:", my_set)
